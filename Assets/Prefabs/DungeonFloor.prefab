@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7988896820606789608
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7988896820606789614}
+  - component: {fileID: 7988896820606789609}
+  m_Layer: 0
+  m_Name: DungeonFloor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7988896820606789614
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7988896820606789608}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -10.48, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7988896820606789609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7988896820606789608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb1137b8dc78eca40a1b553b7d5a68c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dungeonWidth: 25
+  dungeonHeight: 25
+  minDungeonRooms: 8
+  maxDungeonRooms: 11
+  minSize: 3
+  maxSize: 8
+  dungeonTilePrefab: {fileID: 1366459701121827368, guid: 93cacc3303ecee54cb7c857964571725, type: 3}
+  floor: 0
+  upstairs: {fileID: 0}
+  downstairs: {fileID: 0}
+  stairPrefab: {fileID: 935212362147320651, guid: d3595cf98de55474685062d7b8ec7fda, type: 3}
+  enemyPrefab: {fileID: 4513307908890374359, guid: 2fad7313ce5609345a88d8eed7c3ed2c, type: 3}

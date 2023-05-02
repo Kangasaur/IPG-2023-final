@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 9e730759d6e8f5048ad991859250c6c6
+  - enabled: 1
+    path: Assets/Scenes/Dungeon.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Coward.unity
+    guid: 5a5eb2b6c8310924395ee2e20637ea3d
+  - enabled: 1
+    path: Assets/Scenes/Victory.unity
+    guid: 4acc3fcf4f0d96843b816b71f2111bb7
+  - enabled: 1
+    path: Assets/Scenes/Death.unity
+    guid: 8c01ebcde6c70594082ea08239f68c89
+  m_configObjects: {}
